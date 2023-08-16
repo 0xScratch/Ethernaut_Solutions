@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bonus\\DelegateCalls\\answer\\Attack.sol": "HackMe"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bonus\\DelegateCalls\\answer\\Attack.sol": {
+			"keccak256": "0xa2c303799849185155dddcd5737420bb3ed7d72e85c0b641d7eec6fa9f763596",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://83be95a67e74b347c992691e341237b17368e5268494ba42cdb24e2c68e80327",
+				"dweb:/ipfs/QmY7EUNTiT2Dt3Bk1muujmGMq7qkqViPY7q2qjVK6HhHEF"
+			]
+		}
+	},
+	"version": 1
+}

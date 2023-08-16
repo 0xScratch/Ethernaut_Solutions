@@ -1,0 +1,4 @@
+Two ways by which a function could be called using delegatecall method
+
+- abi.encodeWithSignature("setVars(uint256)", _num), here setVars is the name of the function and _num is its parameter
+- abi.encodeWithSelect(TestDelegateCall.setVars.selector, _num)
