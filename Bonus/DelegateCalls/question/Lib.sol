@@ -1,7 +1,7 @@
 /*
-    So this is the main contract which is 'Lib.sol', there be one more contract 'HackMe.sol' which will come under your question part, and you can't make changes to them...
+    Here the main contract is 'HackMe.sol', and you can't make changes to both of them...
 
-    Here is your task - 
+    your task - 
         Claim the ownership of 'HackMe.sol'
     
     Note - Make sure that while calling a 'delegatecall' on some other contract, your state variables stucture should match with that particular contract including the way they are declared!!
