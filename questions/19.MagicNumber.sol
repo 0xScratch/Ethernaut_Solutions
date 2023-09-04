@@ -8,6 +8,8 @@
     Hint: Perhaps its time to leave the comfort of the Solidity compiler momentarily, and build this one by hand O_o. That's right: Raw EVM bytecode.
 
     Good luck!
+
+    / Get hands on with assembly /
 */
 
 // SPDX-License-Identifier: MIT
