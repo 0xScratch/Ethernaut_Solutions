@@ -14,7 +14,7 @@ contract Switch {
     bool public switchOn; // switch is off
     bytes4 public offSelector = bytes4(keccak256("turnSwitchOff()"));
 
-     modifier onlyThis() {
+    modifier onlyThis() {
         require(msg.sender == address(this), "Only the contract can call this");
         _;
     }
